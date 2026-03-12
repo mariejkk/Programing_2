@@ -64,7 +64,7 @@ namespace SalonSpa.API.Controllers
         {
             var appointment = _mapper.Map<Appointment>(request);
 
-            // Si no se especificó estado, arranca como Pendiente (Id = 1)
+    
             if (appointment.AppointmentStatusId == 0)
                 appointment.AppointmentStatusId = 1;
 
