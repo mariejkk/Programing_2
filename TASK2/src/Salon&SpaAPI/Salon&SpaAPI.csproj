@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< Updated upstream
+=======
+    <PackageReference Include="AutoMapper" Version="16.1.1" />
+>>>>>>> Stashed changes
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
@@ -20,4 +24,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="9.0.6" />
   </ItemGroup>
 
+<<<<<<< Updated upstream
+=======
+  <ItemGroup>
+    <ProjectReference Include="..\SalonSpa.Application\SalonSpa.Application.csproj" />
+    <ProjectReference Include="..\SalonSpa.Infraestructure\SalonSpa.Infraestructure.csproj" />
+    <ProjectReference Include="..\SalonSpa.Persistence\SalonSpa.Persistence.csproj" />
+  </ItemGroup>
+
+>>>>>>> Stashed changes
 </Project>
