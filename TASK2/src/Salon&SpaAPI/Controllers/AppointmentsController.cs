@@ -1,7 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
-using SalonSpa.Domain.Entities;
-using SalonSpa.Infrastructure.Repositories;
+﻿using Microsoft.AspNetCore.Mvc;
 using Salon_Spa.Application.Dtos;
 using Salon_Spa.Application.Services;
 
@@ -81,5 +78,3 @@ namespace Salon_Spa.API.Controllers
         }
     }
 }
-
-

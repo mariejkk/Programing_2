@@ -1,13 +1,8 @@
 ﻿using AutoMapper;
 using Salon_Spa.Application.Dtos;
+using Salon_Spa.Application.Validations;
 using SalonSpa.Domain.Entities;
 using SalonSpa.Infrastructure.Repositories;
-using Salon_Spa.Application.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Salon_Spa.Application.Services
 {
